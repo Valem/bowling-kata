@@ -40,17 +40,23 @@ Just when you thought you were ready to claim your free nachos, the Wizard of th
 
 ### Your Bonus Quest 🌟
 
-Your bonus mission, should you choose to accept, involves creating a random game simulator. This simulator will:
+Your bonus mission, should you choose to accept, involves creating a method that allows to play a random game.
 
 - Randomly generate rolls, taking care to not knock down more pins than are available.
+
+- Don't forget the 10th special frame rules.
   
-- Output an ASCII table after the game, displaying the score per frame. Use `X` to represent a strike and `/` to represent a spare.
+- Output an ASCII table after the game, displaying the cumulative score per frame and the total score.
 
 For example, the ASCII table might look something like this:
 
 Frame: 1	2	3	4	5	6	7	8	9	10	Total
 
-Rolls: 9/	X	2	6	X	X	X	6/	1	X	154
+Score: 20	38	46	76	102	122	133	134	144	144	144
+
+If it's still not enough add also the rolls, like this
+
+Rolls: 9/	X	2	6	X	X	X	6/	1	X
 
 
 **Can you rise to the challenge and become the ultimate Bowling Game Master? 🏆**
